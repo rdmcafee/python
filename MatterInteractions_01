@@ -1,0 +1,15 @@
+from visual import *
+ball=sphere(pos=vector(-3,-3,0),
+            color=color.orange,
+            radius=0.5)
+velocity=vector(3,1.5,4)
+arrow(pos=ball.pos,
+      axis=velocity,
+      color=color.green)
+delta_t=0.1
+t=0
+while t<4:
+    rate(100)
+    ball.pos=ball.pos+velocity*delta_t
+    t=t+delta_t
+    
