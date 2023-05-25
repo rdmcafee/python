@@ -44,8 +44,8 @@ print(f'Digested 2: {round(10**basePairs(468), 4)}')
 print(f'Average # of basepairs: {round(np.average([10**basePairs(420), 10**basePairs(468)]), 4)}')
 
 
-Class_Genotypes = {'HOT': 86, 'HET': 36, 'HON': 57}
-
+#Class_Genotypes = {'HOT': 86, 'HET': 36, 'HON': 57}
+Class_Genotypes = {'HOT': 3, 'HET': 3, 'HON': 3}
 total_alleles = Class_Genotypes['HOT']*2 + Class_Genotypes['HET']*2 + Class_Genotypes['HON']*2
 total_dom = Class_Genotypes['HOT'] * 2 + Class_Genotypes['HET']
 total_rec = Class_Genotypes['HON']*2 + Class_Genotypes['HET']
