@@ -2,3 +2,5 @@ testing git commit and push
 Note: had to do git config credential.helper store in terminal to store username and password
 
 also note: git add <file>, git commit, git push is the order of pushing to the repo online. 
+
+also testing updating from VSCode
