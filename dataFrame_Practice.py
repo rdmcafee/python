@@ -50,7 +50,7 @@ n = 0
 
 while n < len(micro):
     series1 = pd.Series(micro[n], index = df1.columns)
-    df1 = df1.append(series1, ignore_index = True)
+    df1 = df1._append(series1, ignore_index = True)
     n += 1
 
 df1[6] = "||"
@@ -59,7 +59,7 @@ df1[6] = "||"
 j = 0
 while j < len(macro):
     series2 = pd.Series(macro[j], index = df2.columns)
-    df2 = df2.append(series2, ignore_index = True)
+    df2 = df2._append(series2, ignore_index = True)
     j += 1
 #####Note: I here we merge two data frames *side-by-side* preserving the *left
 #####DataFrame. We have mached the indicies since they both start at 0. 

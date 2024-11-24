@@ -1,4 +1,4 @@
 {
-    "python.envFile": "${C:\Users\Mcrye\workspace\Python\physics\Scripts\}\.env",
-    "python.pythonPath": "C:\\Users\\Mcrye\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+    "python.envFile": "${C:\Users\Mcrye\workspace\Python\physics\Scripts\activate.bat}"
+    //"python.pythonPath": "C:\\Users\\Mcrye\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
 }

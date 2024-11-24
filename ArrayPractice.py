@@ -6,7 +6,7 @@ Created on Tue Oct  5 11:27:49 2021
 """
 
 import numpy as np
-import scipy.integrate as scip
+#import scipy.integrate as scip
 import matplotlib.pyplot as plt
 import warnings
 
@@ -15,11 +15,13 @@ warnings.filterwarnings('ignore')
 a = np.array([1,2,3])
 b = np.array([2,3,4])
 A = a.reshape(3,1)
+c = np.zeros(shape = (1, 10))
 #ab = A@b
 AB = a*b
 print(a)
 print(A)
 print(b)
+print(c)
 #print(B)
 #print(ab)
 print(AB)
